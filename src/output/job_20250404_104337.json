@@ -1,0 +1,24 @@
+{
+  "prompt": "Beautiful sunset over hills with soft sunlight and orange sky",
+  "config": {
+    "duration": 6,
+    "fps": 24,
+    "resolution": "1280x720",
+    "seed": 517070100
+  },
+  "response": {
+    "ResponseMetadata": {
+      "RequestId": "43397d32-33b2-42ce-84fd-4a28973716ad",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Fri, 04 Apr 2025 05:13:37 GMT",
+        "content-type": "application/json",
+        "content-length": "84",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "43397d32-33b2-42ce-84fd-4a28973716ad"
+      },
+      "RetryAttempts": 0
+    },
+    "invocationArn": "arn:aws:bedrock:us-east-1:359077243653:async-invoke/9pxk2dkmgbat"
+  }
+}

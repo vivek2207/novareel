@@ -1,0 +1,24 @@
+{
+  "prompt": "A beautiful sunset over a mountain lake, with golden clouds reflecting in the calm water",
+  "config": {
+    "duration": 6,
+    "fps": 24,
+    "resolution": "1280x720",
+    "seed": 1809182631
+  },
+  "response": {
+    "ResponseMetadata": {
+      "RequestId": "0af77d02-5edb-41b3-b93a-a42adbc1d799",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Fri, 04 Apr 2025 05:00:30 GMT",
+        "content-type": "application/json",
+        "content-length": "84",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "0af77d02-5edb-41b3-b93a-a42adbc1d799"
+      },
+      "RetryAttempts": 0
+    },
+    "invocationArn": "arn:aws:bedrock:us-east-1:359077243653:async-invoke/6t5zwhgy2sfl"
+  }
+}

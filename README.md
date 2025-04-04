@@ -10,6 +10,8 @@ Generate beautiful videos from text descriptions using Amazon Bedrock's Nova Ree
 - 📜 Job History: Track and manage your video generation jobs
 - 🔄 Auto-refresh Status: Automatically updates job status every 10 seconds
 - 🎥 Easy Download: Direct download links for completed videos
+- 🔍 Job Status Tracking: Reliable status updates from AWS Bedrock
+- 🏗️ Clean Architecture: Modular design with separation of concerns
 
 ## 🏗️ Project Structure
 
@@ -32,6 +34,10 @@ novareel/
 │   └── app.py            # Main application
 ├── tests/                 # Test files
 │   └── test_video_job.py
+├── rules/                # Code quality rules
+│   ├── python.mdc        # Python best practices
+│   ├── clean-code.mdc    # Clean code principles
+│   └── codequality.mdc   # Code quality guidelines
 ├── output/               # Generated videos and job data
 ├── requirements.txt      # Python dependencies
 └── .env                 # Environment variables
@@ -49,7 +55,7 @@ novareel/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/novareel.git
+git clone https://github.com/vivek2207/novareel.git
 cd novareel
 ```
 
@@ -109,6 +115,20 @@ The application follows a clean architecture with:
 - UI components for presentation
 - Configuration for settings
 
+### Code Quality
+
+The project adheres to strict code quality guidelines defined in the `rules/` directory:
+- Python best practices (`python.mdc`)
+- Clean code principles (`clean-code.mdc`)
+- Code quality standards (`codequality.mdc`)
+
+Key principles include:
+- Clear separation of concerns
+- Comprehensive error handling
+- Proper type hints and documentation
+- Efficient AWS service integration
+- Modular and maintainable UI components
+
 ## 📝 Environment Variables
 
 Required environment variables in `.env`:
@@ -126,6 +146,8 @@ AWS_DEFAULT_REGION=your_region
 4. Push to the branch
 5. Open a Pull Request
 
+Please ensure your code follows our quality guidelines in the `rules/` directory.
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -134,4 +156,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Amazon Bedrock for the Nova Reel model
 - Streamlit for the web interface
-- AWS SDK for Python (Boto3) 
+- AWS SDK for Python (Boto3)
+- The open-source community for inspiration and tools 

@@ -1,0 +1,24 @@
+{
+  "prompt": "sunset",
+  "config": {
+    "duration": 6,
+    "fps": 24,
+    "resolution": "1280x720",
+    "seed": 1895450866
+  },
+  "response": {
+    "ResponseMetadata": {
+      "RequestId": "aec4d4e2-b959-465f-a8f3-9c574498c153",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Fri, 04 Apr 2025 06:14:04 GMT",
+        "content-type": "application/json",
+        "content-length": "84",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "aec4d4e2-b959-465f-a8f3-9c574498c153"
+      },
+      "RetryAttempts": 0
+    },
+    "invocationArn": "arn:aws:bedrock:us-east-1:359077243653:async-invoke/s602vwxjd6rb"
+  }
+}

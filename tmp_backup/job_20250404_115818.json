@@ -1,0 +1,15 @@
+{
+  "prompt": "sunset",
+  "config": {
+    "duration": 6,
+    "fps": 24,
+    "resolution": "1280x720",
+    "seed": 1320958298
+  },
+  "invocation_arn": "arn:aws:bedrock:us-east-1:359077243653:async-invoke/81p3tom3nv3b",
+  "status": "Completed",
+  "created_at": "2025-04-04T11:58:18.138295",
+  "completed_at": "2025-04-04T12:09:56.767644",
+  "output_path": "output/81p3tom3nv3b.mp4",
+  "error_message": null
+}
